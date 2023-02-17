@@ -5,24 +5,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Deltavolt Music</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
             html {
                 height: 100% !important;
             }
             body {
                 min-height: 100%;
+                /* background-image: url('images/Deltavolt\ Banner\ Cropped.jpg'); */
+                /* background-image: url('images/Mellow\ Summers\ <10\ MB.jpg'); */
+                /* background-image: url('images/Floating\ Point\ \(Final\)\ <10\ MB.jpg'); */
+                background-size: max(100vh, 100vw);
+                background-position: center;
             }
             
+            /* Style all font awesome icons */
+            .fa {
+                padding: 25px;
+                font-size: 24px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 25%;
+                color: white;
+                transition: 250ms;
+            }
+
+            /* Add a hover effect if you want */
+            .fa:hover {
+                opacity: 0.7;
+            }
         </style>
     </head>
     <body class="bg-black text-white d-flex flex-column justify-content-between text-center">
         <div class="d-flex flex-column justify-content-center flex-grow-1">
             <div class="d-flex flex-column align-items-center">
-                <img style="width: 10em;" src="deltavolt_logo_white.svg">
+                <img style="width: 10em; mix-blend-mode: difference;" src="deltavolt_logo_white.svg">
                 <h1 class="display-1 my-3">Coming soon...</h1>
                 <h1 class="display-5 ">This site is currently under development.</h1>
                 <a class="btn btn-outline-light my-5" href="https://linktr.ee/deltavolt">Click here to go to my Linktree</a>
             </div>
+        </div>
+        <div class="social-buttons">
+            <a href="https://instagram.com/deltavoltmusic"><div class="fa fa-instagram"></div></a>
+            <a href="https://twitter.com/deltavoltmusic"><div class="fa fa-twitter"></div></a>
+            <a href="https://www.youtube.com/@deltavoltmusic"><div class="fa fa-youtube"></div></a>
+            <a href="https://open.spotify.com/artist/7JVTsM5lw7BcXMUDkHd67B"><div class="fa fa-spotify"></div></a>
+            <a href="https://soundcloud.com/deltavoltmusic"><div class="fa fa-soundcloud"></div></a>
         </div>
         
         <div class="align-self-center flex-grow-0 p-5">&copy; Deltavolt 2023</div>
