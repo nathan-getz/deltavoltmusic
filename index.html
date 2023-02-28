@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Deltavolt Music</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+        <link href="/fontawesome/css/brands.css" rel="stylesheet">
+        <link href="/fontawesome/css/solid.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <style>
             html {
@@ -22,17 +24,27 @@
             
             /* Style all font awesome icons */
             .fa {
-                padding: 25px;
-                font-size: 24px;
                 text-align: center;
                 text-decoration: none;
-                border-radius: 25%;
                 color: white;
                 transition: 250ms;
             }
 
-            /* Add a hover effect if you want */
-            .fa:hover {
+            .social-buttons {
+                font-size: 25px;
+                padding: 25px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+            }
+            .social-buttons > a {
+                border: 1px solid silver;
+                border-radius: 50%;
+                padding: 0.5em;
+                transition: 250ms;
+            }
+            
+            .social-buttons > a:hover {
                 opacity: 0.7;
             }
         </style>
@@ -51,14 +63,15 @@
         
         <div class="align-self-center flex-grow-0 p-5 fw-light">
             <div class="social-buttons">
-                <a href="https://instagram.com/deltavoltmusic"><div class="fa fa-instagram"></div></a>
-                <a href="https://twitter.com/deltavoltmusic"><div class="fa fa-twitter"></div></a>
-                <a href="https://www.youtube.com/@deltavoltmusic"><div class="fa fa-youtube"></div></a>
-                <a href="https://open.spotify.com/artist/7JVTsM5lw7BcXMUDkHd67B"><div class="fa fa-spotify"></div></a>
-                <a href="https://soundcloud.com/deltavoltmusic"><div class="fa fa-soundcloud"></div></a>
+                <a title="Instagram" href="https://instagram.com/deltavoltmusic"><i class="fa fa-brands fa-instagram fa-fw"></i></a>
+                <a title="Twitter" href="https://twitter.com/deltavoltmusic"><i class="fa fa-brands fa-twitter fa-fw"></i></a>
+                <a title="TikTok" href="https://tiktok.com/deltavoltmusic"><i class="fa fa-brands fa-tiktok fa-fw"></i></a>
+                <a title="Spotify" href="https://open.spotify.com/artist/7JVTsM5lw7BcXMUDkHd67B"><i class="fa fa-brands fa-spotify fa-fw"></i></a>
+                <a title="SoundCloud" href="https://soundcloud.com/deltavoltmusic"><i class="fa fa-brands fa-soundcloud fa-fw"></i></a>
+                <a title="YouTube" href="https://www.youtube.com/@deltavoltmusic"><i class="fa fa-brands fa-youtube fa-fw"></i></a>
             </div>
             <small>&copy; Deltavolt 2023</small>
         </div>
-        <script src="js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
