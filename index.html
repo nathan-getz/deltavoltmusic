@@ -8,6 +8,7 @@
         <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
         <link href="/fontawesome/css/brands.css" rel="stylesheet">
         <link href="/fontawesome/css/solid.css" rel="stylesheet">
+        <link href="/fontawesome/css/regular.css" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <style>
             html {
@@ -21,14 +22,12 @@
                 background-size: max(100vh, 100vw);
                 background-position: center;
             }
+
+            a {
+                text-decoration: none;
+            }
             
             /* Style all font awesome icons */
-            .fa {
-                text-align: center;
-                text-decoration: none;
-                color: white;
-                transition: 250ms;
-            }
 
             .social-buttons {
                 font-size: 25px;
@@ -40,17 +39,27 @@
             .social-buttons > a {
                 border: 1px none;
                 border-radius: 50%;
-                padding: 0.5em;
+                padding: 0.25em;
+                text-align: center;
+                color: white;
                 transition: 250ms;
             }
             
             .social-buttons > a:hover {
                 opacity: 0.7;
             }
+
+            .btn-outline-light .youtube-music-icon {
+                color: black;
+            }
+            .btn-outline-light:hover .youtube-music-icon {
+                color: white;
+            }
+            
         </style>
     </head>
     <body class="bg-black text-white d-flex flex-column justify-content-between text-center">
-        <a class="btn btn-outline-light" href="https://distrokid.com/hyperfollow/deltavolt/chromium">Chromium - Spotify Presave</a>
+        <a class="btn btn-outline-light mx-5 mt-3" href="https://distrokid.com/hyperfollow/deltavolt/chromium">Chromium - Spotify Presave</a>
         <div class="d-flex flex-column justify-content-center flex-grow-1 mt-5">
             <div class="d-flex flex-column align-items-center">
                 <img style="width: 10em; mix-blend-mode: difference;" src="deltavolt_logo_white.svg">
@@ -60,15 +69,24 @@
                 <a class="btn btn-outline-light my-5" href="https://linktr.ee/deltavolt">Click here to go to my Linktree</a>
             </div>
         </div>
-        
+        <h1 class="display-6">Listen on these services and more!</h1>
+        <div style="font-size: 2rem;" class="btn-group-vertical mx-auto">
+            <a title="Spotify" href="https://open.spotify.com/artist/7JVTsM5lw7BcXMUDkHd67B" class="btn btn-lg btn-outline-light text-start me-auto"><i class="fa fa-brands fa-spotify fa-fw"></i> Spotify</a>
+            <a title="Apple Music" href="https://music.apple.com/us/artist/deltavolt/1631938861" class="btn btn-lg btn-outline-light text-start me-auto"><i class="fa fa-brands fa-apple fa-fw"></i> Apple Music</a>
+            <a title="YouTube Music" href="https://music.youtube.com/channel/UCh5urRvxfIthtQxNFfSOrJQ" class="btn btn-lg btn-outline-light text-start me-auto">
+                <span class="fa fa-stack fa-fw" style="font-size: 0.5em;"><i class="fa-solid fa-circle fa-stack-2x"></i><i class="fa-regular fa-circle-play fa-stack-1x youtube-music-icon" style="font-size: 130%;"></i></span> YouTube Music
+            </a>
+            <a title="Amazon Music" href="https://music.amazon.com/artists/B0B59XGJ3W/deltavolt" class="btn btn-lg btn-outline-light text-start me-auto"><i class="fa fa-brands fa-amazon fa-fw"></i> Amazon Music</a>
+                <a title="SoundCloud" href="https://soundcloud.com/deltavoltmusic" class="btn btn-lg btn-outline-light text-start me-auto"><i class="fa fa-brands fa-soundcloud fa-fw"></i> SoundCloud</a>
+                <a title="Bandcamp" href="https://deltavolt.bandcamp.com" class="btn btn-lg btn-outline-light text-start me-auto"><i class="fa fa-brands fa-bandcamp fa-fw"></i> Bandcamp</a>
+        </div>
         <div class="align-self-center flex-grow-0 p-5 fw-light">
             <div class="social-buttons">
                 <a title="Instagram" href="https://instagram.com/deltavoltmusic"><i class="fa fa-brands fa-instagram fa-fw"></i></a>
                 <a title="Twitter" href="https://twitter.com/deltavoltmusic"><i class="fa fa-brands fa-twitter fa-fw"></i></a>
                 <a title="TikTok" href="https://tiktok.com/deltavoltmusic"><i class="fa fa-brands fa-tiktok fa-fw"></i></a>
-                <a title="Spotify" href="https://open.spotify.com/artist/7JVTsM5lw7BcXMUDkHd67B"><i class="fa fa-brands fa-spotify fa-fw"></i></a>
-                <a title="SoundCloud" href="https://soundcloud.com/deltavoltmusic"><i class="fa fa-brands fa-soundcloud fa-fw"></i></a>
                 <a title="YouTube" href="https://www.youtube.com/@deltavoltmusic"><i class="fa fa-brands fa-youtube fa-fw"></i></a>
+                <a title="Email" href="mailto:deltavoltmusic@gmail.com"><i class="fa fa-regular fa-envelope fa-fw"></i></a>
             </div>
             <small>&copy; Deltavolt 2023</small>
         </div>
